@@ -19,12 +19,14 @@ const navigate = (url: string) => {
 
           <div class="profile-links">
             <div class="links">
-              <div @click="navigate('https://dra-natalia-bittencourt.netlify.app/')" class=" d-flex align-items-center">Conheça meu trabalho
+              <div @click="navigate('https://dra-natalia-bittencourt.netlify.app/')" class=" d-flex align-items-center">
+                Conheça meu trabalho
                 <img class="icon" src="../assets/icons/web.svg" alt="web">
               </div>
             </div>
             <div class="links">
-              <div @click="navigate('https://api.whatsapp.com/send?phone=554899114373')" class="d-flex align-items-center">Fale comigo <b>AGORA!</b>
+              <div @click="navigate('https://api.whatsapp.com/send?phone=554899114373')"
+                class="d-flex align-items-center">Agende sua consulta
                 <img class="icon" src="../assets/icons/whatsapp.svg" alt="whatsapp">
               </div>
             </div>
@@ -45,7 +47,7 @@ const navigate = (url: string) => {
   justify-content: center;
 }
 
-@media (width <= 767px) {
+@media (width <=767px) {
   .background {
     background-image: url('../assets/images/background.jpg');
     background-repeat: no-repeat;
@@ -53,14 +55,14 @@ const navigate = (url: string) => {
     background-size: cover;
   }
 
-  .profile-card{
+  .profile-card {
     top: 65%;
   }
-  
+
 }
 
-@media (width >= 768px) {
-  .profile-card{
+@media (width >=768px) {
+  .profile-card {
     top: 50%;
   }
 }
@@ -107,7 +109,7 @@ const navigate = (url: string) => {
 
 .profile-card .pic-container .pic {
   background-image: url('../assets/images/profile.png'),
-  linear-gradient(135deg, rgba(26, 166, 183, 0.1), rgba(255, 65, 77, 0.2));
+    linear-gradient(135deg, rgba(26, 166, 183, 0.1), rgba(255, 65, 77, 0.2));
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,16 +154,16 @@ const navigate = (url: string) => {
   width: 90%;
 }
 
-.subtitle{
+.subtitle {
   margin-top: 2rem;
   font-size: 1.6rem;
 }
 
-.links > div {
+.links>div {
   cursor: pointer;
 }
 
-.profile-card .above-fold .profile-links{
+.profile-card .above-fold .profile-links {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -182,7 +184,7 @@ const navigate = (url: string) => {
   margin-bottom: .5rem;
 }
 
-.profile-card .above-fold .links .icon{
+.profile-card .above-fold .links .icon {
   height: 1.5rem;
   width: 1.5rem;
   margin-left: .5rem;
