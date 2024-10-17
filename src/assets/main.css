@@ -1,35 +1,29 @@
-@import './base.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  font-weight: normal;
+
+:root {
+    --white: #D9ECF2;
+    --pink: #FFC897;
+    --yellow: #F7EFA2;
+    --dark-yellow: #B48250;
+    --green: #BAC99A;
+    --turqoise: #75C9A3;
+    --black: #42393B;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
+
+body, html, p{
+    margin: 0;
+    padding: 0;
 }
 
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+p, h2, div{
+    color: var(--dark-yellow);
+    font-family: "Afacad Flux", sans-serif; 
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h2{
+    font-family: "Philosopher", sans-serif;
 }
