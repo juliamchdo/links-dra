@@ -49,7 +49,7 @@ const navigate = (url: string) => {
 
 @media (width <=767px) {
   .background {
-    background-image: url('../assets/images/background.jpg');
+    background-image: url('../assets/images/background.jpeg');
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
