@@ -25,8 +25,14 @@ const navigate = (url: string) => {
               </div>
             </div>
             <div class="links">
-              <div @click="navigate('https://api.whatsapp.com/send?phone=554899114373')"
+              <div @click="navigate('https://www.doctoralia.com.br/z/JdNo2V')"
                 class="d-flex align-items-center">Agende sua consulta
+                <img class="icon" src="../assets/icons/schedule.svg" alt="schedule">
+              </div>
+            </div>
+            <div class="links">
+              <div @click="navigate('https://api.whatsapp.com/send?phone=554899114373')"
+                class="d-flex align-items-center">Mande sua dúvida
                 <img class="icon" src="../assets/icons/whatsapp.svg" alt="whatsapp">
               </div>
             </div>
@@ -188,6 +194,7 @@ const navigate = (url: string) => {
   height: 1.5rem;
   width: 1.5rem;
   margin-left: .5rem;
+  fill: var(--dark-yellow);
 }
 
 @keyframes bounce {
